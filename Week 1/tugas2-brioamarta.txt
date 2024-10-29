@@ -1,0 +1,26 @@
+//Soal 1
+//Apa yang dimaksud dengan uji penetrasi (pentest) dalam keamanan siber, dan apa tujuan utamanya?
+
+Uji penetrasi (pentest) dalam keamanan siber adalah proses yang dirancang untuk mengidentifikasi dan mengevaluasi kerentanan keamanan dalam sistem, jaringan, aplikasi, atau infrastruktur teknologi informasi. Tujuan utamanya adalah untuk menemukan dan mengidentifikasi kerentanan sebelum penyerang melakukannya, sehingga organisasi dapat memperbaiki kerentanan tersebut sebelum dapat dieksploitasi.
+
+
+//Soal 2 
+//Jelaskan perbedaan antara uji penetrasi internal dan uji penetrasi eksternal dalam keamanan siber.
+
+Perbedaannya terletak di siapa yang melakukan pengujian dan darimana pengujian tersebut dilakukan. Uji penetrasi internal dilakukan oleh tim atau individu yang sudah memiliki akses ke dalam jaringan atau sistem yang diuji, mirip dengan serangan dari dalam. Sedangkan, uji penetrasi eksternal dilakukan oleh pihak yang tidak memiliki akses sebelumnya, mencoba mengeksploitasi kerentanan dari luar.
+
+//Soal 3 
+//Apa yang dimaksud dengan metode "Black Box" dalam uji penetrasi, dan bagaimana cara kerjanya?
+
+Metode Black Box adalah pendekatan dimana penguji tidak diberikan informasi apapun mengenai sistem yang akan diuji, termasuk infrastruktur atau kode sumber yang digunakan. Penguji bertindak seperti seorang hacker yang harus mengeksploitasi sistem untuk menemukan celah keamanan. Cara kerjanya melibatkan penggunaan alat analisis otomatis dan metodologi manual untuk memetakan system berdasarkan observasi mereka.
+
+//Soal 4
+//Apa yang dimaksud dengan metode "Grey Box" dalam uji penetrasi, dan apa keuntungan menggunakan metode ini?
+
+Metode Grey Box adalah pendekatan dimana penguji memiliki akses dan informasi terbatas, seolah-olah mereka adalah pengguna. Keuntungan menggunakan metode ini adalah memberikan penilaian keamanan yang lebih efisien dibandingkan metode black box, karena penguji dapat menguji sistem dengan fokus yang lebih baik untuk mengeksploitasi kerentanan, sehingga resiko serangan dapat lebih terukur.
+ 
+
+//Soal 5: 
+//Apa yang dimaksud dengan metode "White Box" dalam uji penetrasi, dan mengapa metode ini memerlukan waktu yang lebih lama?
+
+Metode White box adalah pendekatan dimana penguji memiliki akses penuh ke semua informasi yang diperlukan tentang sistem yang diuji. Metode ini memerlukan waktu yang lebih lama karena penguji harus melakukan pemeriksaan menyeluruh terhadap sistem untuk mendeteksi kerentanan sekecil apapun, yang mungkin tidak dapat diakses dengan metode black box atau greybox.
