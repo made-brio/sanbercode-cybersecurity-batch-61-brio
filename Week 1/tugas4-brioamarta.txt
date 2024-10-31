@@ -1,0 +1,24 @@
+//Soal 1: 
+//Mengapa tahap perencanaan (planning) sangat penting dalam proses uji penetrasi web? Sebutkan beberapa hal yang perlu diperhatikan saat merencanakan uji penetrasi.
+
+Tahap perencanaan sangat penting dalam proses uji penetrasi web karena di sinilah lingkup dan tujuan uji penetrasi ditetapkan, serta potensi dampak terhadap aplikasi dan organisasi dianalisis. Hal yang perlu diperhatikan dalam perencanaan meliputi: pengumpulan informasi awal, penentuan jenis serangan, identifikasi sumber daya, serta pemahaman mengenai batasan dan konsekuensi uji penetrasi.
+
+//Soal 2: 
+//Mengapa pemahaman mendalam tentang aplikasi web menjadi langkah penting dalam proses uji penetrasi?
+
+Pemahaman mendalam tentang aplikasi web penting dalam proses uji penetrasi karena memungkinkan tester mengetahui fungsi-fungsi utama aplikasi, aliran data, dan komponen-komponen yang perlu dievaluasi. Ini juga membantu tester memahami teknologi yang digunakan dan infrastruktur pendukung, yang menjadi kunci dalam menemukan titik lemah atau kerentanan.
+
+//Soal 3: 
+//Apa yang dimaksud dengan pencarian informasi (information gathering) dalam konteks uji penetrasi web? Mengapa langkah ini penting?
+
+Pencarian informasi (information gathering) dalam uji penetrasi web adalah proses pengumpulan informasi lebih lanjut mengenai aplikasi, server, dan infrastruktur terkait. Langkah ini penting karena memberikan pemahaman yang mendalam tentang target sehingga tester dapat menentukan pendekatan dan teknik uji yang efektif.
+
+//Soal 4: 
+//Mengapa tahap evaluasi dan pelaporan (evaluation and reporting) adalah tahap penting dalam proses uji penetrasi web?
+
+Tahap evaluasi dan pelaporan adalah bagian penting dalam uji penetrasi web karena hasil uji dianalisis untuk menentukan tingkat keamanan aplikasi dan mengidentifikasi kerentanan yang ada. Laporan yang dihasilkan menjadi panduan untuk langkah perbaikan dan mitigasi risiko yang harus dilakukan.
+
+//Soal 5: 
+//Mengapa pemantauan (monitoring) adalah langkah yang penting setelah uji penetrasi selesai?
+
+Pemantauan (monitoring) adalah langkah penting setelah uji penetrasi selesai untuk memastikan bahwa kerentanan yang ditemukan telah diperbaiki dan keamanan aplikasi tetap terjaga. Monitoring juga memungkinkan organisasi untuk terus memperbarui langkah keamanan terhadap potensi ancaman baru.
