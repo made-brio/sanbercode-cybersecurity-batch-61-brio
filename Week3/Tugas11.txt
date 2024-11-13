@@ -1,0 +1,40 @@
+1. Improper Platform Usage
+Verifikasi penggunaan komponen yang sesuai (Activities, Broadcast Receivers, Services).
+Cek izin (permissions) yang digunakan aplikasi, pastikan hanya yang diperlukan.
+Pastikan implementasi penggunaan clipboard, caching, dan file storage tidak melanggar keamanan.
+2. Insecure Data Storage
+Periksa apakah data sensitif disimpan di lokasi yang aman (Shared Preferences, database lokal).
+Pastikan penggunaan enkripsi pada penyimpanan data sensitif.
+Cek apakah ada cache data sensitif atau data pribadi yang tidak dibersihkan.
+3. Insecure Communication
+Validasi penggunaan HTTPS dan pastikan sertifikat valid.
+Cek apakah terdapat SSL Pinning yang terimplementasi.
+Pastikan komunikasi sensitif tidak terekspos di network traffic.
+4. Insecure Authentication
+Pastikan autentikasi menggunakan standar yang kuat (OAuth, JWT).
+Cek proses login/logout untuk kelemahan seperti otentikasi otomatis atau pencurian sesi.
+Periksa kemungkinan sesi terbuka terlalu lama atau logout yang tidak aman.
+5. Insufficient Cryptography
+Cek algoritma enkripsi yang digunakan, hindari algoritma lemah (MD5, SHA-1).
+Pastikan pengelolaan kunci enkripsi yang aman.
+Validasi penggunaan enkripsi untuk data sensitif di memori dan penyimpanan.
+6. Insecure Authorization
+Pastikan kontrol akses (authorization) ada dan tepat di seluruh endpoint.
+Cek apakah pengguna tanpa izin dapat mengakses atau memodifikasi data yang bukan miliknya.
+Uji peran pengguna dan akses yang terkait dengan setiap level.
+7. Client Code Quality
+Cek potensi eksploitasi dari kode client (misalnya kode yang terlalu terbuka).
+Lakukan review terhadap error handling yang ada pada aplikasi.
+Validasi implementasi exception handling yang aman.
+8. Code Tampering
+Pastikan ada proteksi terhadap modifikasi aplikasi (misalnya dengan verifikasi integritas).
+Cek mekanisme anti-debugging dan deteksi root/jailbreak.
+Pastikan aplikasi menggunakan verifikasi terhadap aplikasi yang dimodifikasi atau diubah.
+9. Reverse Engineering
+Lakukan obfuscation pada kode untuk mencegah reverse engineering.
+Pastikan tidak ada informasi sensitif di file APK yang mudah diakses.
+Uji aplikasi dengan tools seperti jadx atau apktool untuk memastikan keamanan kode.
+10. Extraneous Functionality
+Verifikasi tidak ada endpoint tersembunyi atau fitur debugging di versi produksi.
+Pastikan tidak ada informasi internal yang bocor di log aplikasi.
+Cek apakah fungsi pengujian/percobaan telah dinonaktifkan sebelum rilis.
